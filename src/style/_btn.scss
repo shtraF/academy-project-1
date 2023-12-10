@@ -1,0 +1,20 @@
+
+
+
+
+.btn {
+    width: 86%;
+    
+    color: $form-color;
+    background-color: $white;
+   
+    padding: 0.3rem;
+    border-radius: 0.6rem;
+    border: none;
+
+    transition: all 0.2s;
+
+    &:hover {
+        opacity: 0.6;
+    }
+}

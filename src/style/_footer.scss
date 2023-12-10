@@ -1,0 +1,56 @@
+
+
+.footer {
+    background-color: $black;
+    padding-bottom: 1rem;
+    
+    width: 100%;
+
+    &__description {
+        text-align: center;
+        padding: 1rem 0rem;
+        background-color: $link-hover;
+        color: $white;
+    }
+
+    & .navbar__footer {
+        padding: 1rem;
+
+        & .lists__footer {
+            text-align: center;
+
+            & .list__footer { 
+                display: inline-block;
+                color: $white;
+            
+                & a {
+                    color: $white;
+                }
+            
+                &:not(:last-child) {
+                    padding: 0.3rem 1rem;
+                }
+            
+            }
+        
+        }
+    }
+
+    & .headline {
+        padding: 1rem;
+        height: 2rem;
+        color: $white;
+        
+        & p{
+            font-size: 10px;
+        }
+    }    
+}
+
+.list__footer a:hover {
+    color: $link-hover;
+}
+
+
+
+
